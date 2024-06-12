@@ -1,4 +1,3 @@
-// src/App.js
 import React, { useState, useEffect } from 'react';
 import Loader from './components/Loader';
 import Navbar from './components/Navbar';
@@ -25,13 +24,23 @@ const App = () => {
     }
 
     return (
-        <div>
+        <div className="bg-slate-900">
             <Navbar />
-            <Header />
-            <About />
-            <Skills />
-            <Portfolio />
-            <Contact />
+            <section id="home">
+                <Header />
+            </section>
+            <section id="about">
+                <About />
+            </section>
+            <section id="skills">
+                <Skills />
+            </section>
+            <section id="portfolio">
+                <Portfolio />
+            </section>
+            <section id="contact">
+                <Contact />
+            </section>
             <Footer />
         </div>
     );
