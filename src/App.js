@@ -29,9 +29,6 @@ const App = () => {
             <section id="home">
                 <Header />
             </section>
-            <section id="about">
-                <About />
-            </section>
             <section id="skills">
                 <Skills />
             </section>
@@ -41,7 +38,11 @@ const App = () => {
             <section id="contact">
                 <Contact />
             </section>
+            <section id="about">
+                <About />
+            </section>
             <Footer />
+
         </div>
     );
 };

@@ -34,7 +34,7 @@ function Header() {
             </button>
           </div>
           <div className="mt-6 text-lg">
-            <span className="block font-medium mb-2">Current tech stack:</span>
+            <span className="block font-medium mb-4">Current tech stack:</span>
             <div className="flex flex-wrap space-x-4">
               <FaReact size={30} className="text-blue-500" />
               <FaNodeJs size={30} className="text-green-500" />
